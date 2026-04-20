@@ -1,0 +1,63 @@
+Project Name: PrimeIntel - Business Intelligence & Research Platform
+
+Objective: Build a sleek, single-page professional website for a high-end research firm using HTML, Tailwind CSS, and JavaScript.
+
+Design Specs:
+
+Aesthetic: Minimalist, cinematic, and authoritative. Use a Dark Mode theme (Deep Midnight Blue/Black backgrounds).
+
+Primary Accent: Cobalt Blue (#0047AB) for buttons, icons, and highlights.
+
+Typography: Use a clean, modern sans-serif (like Inter or Geist).
+
+Key Sections & Features:
+
+Hero Section: A bold headline "PRIMEINTEL" with a "Data Scraper" text animation effect that cycles through keywords: "Market Research," "Business Intelligence," "Competitive Insights."
+
+Service Grid: Use subtle "Glassmorphism" cards to display the four core services. Add hover effects that glow with the Cobalt Blue accent.
+
+Discovery Briefing Form: A specialized input area where users provide:
+
+Business Details
+
+Research Goals (Textarea)
+
+Timeline/Urgency toggle.
+
+Context: Highlight the "24-hour response time" and "Projects starting at $500."
+
+Interactivity: Implement "Reveal on Scroll" animations for sections and a smooth parallax effect for background data-grid patterns.
+
+Tone: Professional, precise, and high-tech. Avoid generic stock imagery; use CSS-based data visualizations or abstract geometric shapes.
+
+## Recommended Assets to Stand Out
+Since you are a UI/UX professional, you can elevate the Replit build by adding these specific touches to the code:
+
+### 1. The "Cobalt Pulse" Button
+Instead of a flat button, use a CSS pulse effect on your CTA (Call to Action) to draw the eye without being distracting.
+
+CSS
+.btn-cobalt {
+  background-color: #0047AB;
+  box-shadow: 0 0 0 0 rgba(0, 71, 171, 0.7);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  70% { box-shadow: 0 0 0 10px rgba(0, 71, 171, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(0, 71, 171, 0); }
+}
+### 2. Subtle Background "Data Grid"
+Add a faint, repeating grid pattern to the background of your Replit project to give it that "Intel Dashboard" feel.
+
+CSS
+body {
+  background-image: radial-gradient(#0047AB 0.5px, transparent 0.5px);
+  background-size: 30px 30px;
+  background-color: #05070A; /* Darker than the grid */
+  background-opacity: 0.05;
+}
+### 3. Micro-Interactions
+When a user clicks into the "Research Goals" box, have the border color transition smoothly from a muted gray to your Cobalt Blue to signal that the "Intelligence Engine" is ready for their input.
+
+Does this prompt align with the level of interactivity you’re looking for, or should we add a specific section for "Case Studies" or "Sample Data" to prove the research quality?
